@@ -1,0 +1,46 @@
+body{
+    width: 400px;
+    height: 300px;;
+    display:grid;
+    place-items:center;
+    background-color:#F0CD48;
+    position:relative;
+  }
+  .div1 {
+    width: 30px;
+    height: 300px;
+    background: #66284A;
+    position:absolute;
+  }
+  .div1:before{
+    display:block;
+    content:"";
+    width:90px;
+    height:30px;
+    background-color:#66284A;
+    position:absolute;
+    top:135px;
+    right:-30px;
+  }
+  .div1:after{
+    display:block;
+    content:"";
+    width:60px;
+    height:60px;
+    border:30.5px solid #66284A;
+    border-radius:50%;
+    position:absolute;
+    top:95px;
+    right:55px;
+  }
+  .div2{
+    display:block;
+    content:"";
+    width:60px;
+    height:60px;
+    border:30.5px solid #66284A;
+    border-radius:50%;
+    position:absolute;
+    top:95px;
+    right:42px;
+  }
